@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color:azure;
+    background-color:cornflowerblue;
+} 
+
+header{
+    background-color: #333;
+    color:cornsilk;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;  
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    color: #ccc;
+} 
+
+.AboutMe{
+    text-align: center;
+    padding: 80px 20px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+} 
+.AboutMe h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.AboutMe h1 span {
+    color:darkturquoise;
+}
+
+.AboutMe p {
+    color:beige;
+    margin-bottom: 20px;
+}
+
+.AboutMe .foto-saya {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkturquoise;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+} 
+
+section{
+    padding: 35px;
+    background-color: #f4f4f4;
+    color: #333;
+} 
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 10px;
+} 
+
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.skill-icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-iconhtml, .skill-iconcss, .skill-icongithub{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+} 
+
+.project-icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+} 
+
+.project-iconluas, .project-iconkeliling{
+    object-fit: contain;
+    width: 650px;
+    height: 650px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #0f172a;
+    color: #94a3b8;
+    margin-top: 40px;
+}
